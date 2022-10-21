@@ -1,0 +1,88 @@
+/*home page style*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: ;
+}
+body{
+    width: 100%;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #e3e6f3;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;
+    padding: 0 10px;
+    position: relative;
+}
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(44, 227, 233);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "" ;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+#word{
+    background-image: url("bg1.jpg");
+    height: 90vh;
+    width: 100%;
+    padding: 0 80px;
+    background-size: cover;
+    background-position: top 25% right 0;
+    align-items: flex-start;
+    justify-content: center;
+}
+#word h1{
+    padding-bottom: 15px;
+    color: rgb(18, 18, 216);
+    font-weight: 900;
+    font-size: 60px;
+}    
+#word h3{
+    color: rgb(117, 30, 230);
+    font-weight: 600;
+    font-size: 30px;
+}
+#word h2{
+    color: rgb(117, 30, 230);
+    font-weight: 600;
+    font-size: 30px;
+}
+.btn{
+    background-color: rgb(223, 29, 103);
+    border-radius: 20px 20px 20px;
+    width: 200px;
+    height: 35px;
+    padding: top 20px bottom 20px;
+    margin: 30px;
+   
+}
+

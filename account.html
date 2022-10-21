@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <section id="header">
+        <a href="#"><img href="" class="logo" src="Al-mubeenah.png" alt="Al-mubeenah logo" width="300px" height="300px"></a>
+              <ul id="navbar">
+                  <li><a class="active" href="index.html">Home</a></li>
+                  <li><a href="account.html">Create account</a></li>
+                  <li><a href="">Reseach</a></li>
+                  <li><a href="">Products</a></li>
+                  <li><a href="">Books</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">About us</a></li>
+                  <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+              </ul>
+    </section>
+
+    <!---login page----->
+    <div id="login-form" class="login-page">
+        <div class="form-box">
+            <div id="btn"></div>
+            <button type="button" onclick="login()" class="toggle-btn">Log in</button>
+            <button type="button" onclick="register()" class="toggle-btn">Register</button>
+        </div>
+        <form id="login" class="input-group-login">
+            <input type="text" class="input-field" placeholder="User E-mail" required>
+            <input type="passwaord" class="input-field" placeholder=" Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember passwaord</span>
+            <button type="submit" class="submit-btn">Log in</button>
+        </form>
+        <form id="register" class="input-group-register">
+            <input type="text" class="input-field" placeholder="First Name" required>
+            <input type="text" class="input-field" placeholder="Last Name" required>
+            <input type="password" class="input-field" placeholder="E-mail Id" required>
+            <input type="password" class="input-field" placeholder="Confirm E-mail Id" required>
+            <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+            <!---embed pdf link for terms and condition-->
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+    
+
+    
+</body>
+</html>
